@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".activities.CropPhotoActivity">
+
+    <com.canhub.cropper.CropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cropShowLabel="true"
+        app:cropperLabelText="@string/crop"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/cropBtn" />
+
+    <Button
+        android:id="@+id/cropBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:paddingHorizontal="35dp"
+        android:paddingVertical="15dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>

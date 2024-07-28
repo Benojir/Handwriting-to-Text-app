@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HandwritingToText" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/teal_deep</item>
+        <item name="textColor">@color/textColorNight</item>
+    </style>
+</resources>

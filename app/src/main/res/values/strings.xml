@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Handwriting to Text</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="edit_text_description">Generated text by AI</string>
+    <string name="copy">Copy</string>
+    <string name="next">Next</string>
+    <string name="crop">Crop</string>
+    <string name="official_telegram_channel">https://t.me/CreativePapa</string>
+    <string name="more_apps"><![CDATA[https://play.google.com/store/search?q=pub: Creative Papa&c=apps]]></string>
+    <string name="app_sharing_message">Hi! this is an awesome AI photo to text converter app. It can also convert handwrings too. Download now https://play.google.com/store/apps/details?id=</string>
+    <string name="official_telegram_group">https://telegram.me/CreativePapaGroup</string>
+</resources>

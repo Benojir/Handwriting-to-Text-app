@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HandwritingToText" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/teal_deep</item>
+        <item name="textColor">@color/textColorDay</item>
+    </style>
+
+    <style name="Theme.HandwritingToText" parent="Base.Theme.HandwritingToText" />
+</resources>
